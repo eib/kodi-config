@@ -1,0 +1,12 @@
+[Unit]
+Description=Lirc Webservice
+After=systemd-user-sessions.service
+
+[Service]
+EnvironmentFile=-/etc/default/lirc-web
+ExecStart=/home/pi/.nvm/versions/node/v6.5.0/bin/node /opt/lirc_web/app.js
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+Alias=lirc-web.service

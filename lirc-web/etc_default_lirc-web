@@ -1,0 +1,6 @@
+# Default settings for lirc-web.
+# No variables are evaluated.
+
+PATH=/home/pi/.nvm/versions/node/v6.5.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+NODE_VERSION=6
+PORT=3000
